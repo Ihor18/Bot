@@ -1,0 +1,40 @@
+.advertise-form {
+    align-content: center;
+}
+.advertise-block{
+    margin: 10px;
+    border:inset;
+    width: 350px;
+    margin-left: 8%;
+}
+
+img{
+    padding:10px 10px 0px 10px;
+    width: 330px;
+    height: 285px;
+}
+
+.row>*{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.image-center {
+    text-align: center;
+
+}
+.product-name{
+    margin-top: -10px;
+    font-size: 25px;
+}
+.price{
+    font-size: 24px;
+}
+.btn{
+    width: 310px;
+    margin: 10px 0 10px 15px;
+}
+.deskr{
+    font-size: 17px;
+    padding: 0 15px 0 15px;
+}

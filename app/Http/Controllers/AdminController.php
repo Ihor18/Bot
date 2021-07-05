@@ -18,7 +18,6 @@ class AdminController extends Controller
         $text = CommandsAction::getCommand('Start');
         $advertise = new TelegramAdvertise();
         $advertise = $advertise->getOneAdvertise(1);
-        dd($advertise);
         return view('admin',['text'=>$text]);
     }
 
